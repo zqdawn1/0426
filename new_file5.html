@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{
+				margin: 0 auto;
+			}
+			
+			.box1{
+				height: 80px;
+				width: 1240px;
+				margin-top: 0px;
+			}
+			.box2{
+				height: 80px;
+				width: 290px;
+				background-color: rgb(20,121,215);
+				float: left;
+			}
+			.box3sousuokuang{
+				height: 35px;
+				width: 430px;
+				float: left;
+				margin-top: 20px;
+				margin-left:100px;
+			
+			}
+			.box3-1{
+				width: 40px;
+				height: 33px;
+				margin-top:px ;
+				float: left;
+		      margin-left:10px; 
+		      border: solid;  
+		      display: block;
+			}
+			.spirit{
+				
+			}
+			.searchBtn {
+                position: relative;
+                background: none;
+                border: none;
+                border-radius: 25px;
+                height: 34px;
+                line-height: 34px;
+                padding: 0 23px;
+                color: #FFF;
+                background-color: #1479d7;
+                float: right;
+                margin-left:-120px;
+                
+            }
+            input{
+            	width: 352px;
+            	height: 30px;
+            	display: ;
+            	border-radius: 20px;
+            }
+            .a1:link{
+            	display: block;
+            	width: 25px;
+            	height:28px;
+            	background-position: 0px -99px;
+            	background-image: url(img/icons.png);
+            	background-repeat: no-repeat;
+            	display: inline-block;
+            	margin-top: 30px;
+            	margin-left: 250px;
+            }
+            .a1:hover{
+            	background-position: 0px -149px;
+            }
+            .a2:link{
+            	display: block;
+            	width: 25px;
+            	height:23px;
+            	background-position: 0px -199px;
+            	background-image: url(img/icons.png);
+            	background-repeat: no-repeat;
+            	display: inline-block;
+            	margin-top: 25px;
+            	margin-left:20px;
+            }
+            .a2:hover{
+            	background-position: 0px -249px;
+            }
+            .box4{
+            	height: 50px;
+            	width: 1240px;
+            	background-color: rgb(20,121,215);
+            	margin-top: 5px;
+            }
+            ul{
+            	list-style-type: none;
+            }
+            li{
+            	text-align: center;
+            	display: inline-block;
+            	margin-left: 15px;
+            	margin-top: 9px;
+            }
+            a{
+            	text-decoration: none;
+            	width: 200px;
+            	text-align: center;
+            	color: white;
+            	font-family: "arial rounded mt bold";
+            	font-size: 23px;
+            }
+            a:hover{
+            	color: darkgray;
+            }
+            .box5{
+            	height:500px;
+            	width: 1240px;
+            }
+            .box6{
+            	width: 390px;
+            	height: 500px;
+            	float: left;
+            	margin-top: 10px;
+            	
+            }
+            .box7{
+            	width: 390px;
+            	height: 43.67px;
+            	border-bottom: solid #1479D7;
+            	margin-left: 40px;
+            	
+            }
+            .box71{
+            	width: 390px;
+            	height: 43.67px;
+            	border-bottom: solid #1479D7;
+            	margin-left: 65px;
+            	
+            }
+            h4{
+            	font-weight: normal;
+            	float: left;
+            }
+            .span1{
+            	border-right: 2px solid #e1e1e1;
+            	width: 1px;
+            	height: 18px;
+            	margin-top: 10px;
+            	margin-left: 10px;
+            	float: left;
+            }
+            .box8tupian{
+            	width: 1240px;
+            	height: 300px;
+            }
+            .img1{
+            	width: 100%;
+            	height: 100%;
+            }
+            .box8{
+            	width: 390px;
+            	height: 500px;
+            	margin-left: 40px;
+            }
+            h4{
+            	line-height: 40px;
+            	text-align: center;
+            }
+            .a3{
+            	text-decoration: none;
+            	width: 100px;
+            	color: black;
+            	font-family: "arial rounded mt bold";
+            	font-size: 15px;
+            	line-height: 45px;
+            }
+            .box9{
+            	width: 390px;
+            	height: 50px;
+            	position: relative;
+            	margin-left:65px ;
+            	border:1px solid #cae0f3;
+            	border-bottom: none;
+            }
+           .box10{
+            	width: 390px;
+            	height: 50px;
+            	position: relative;
+            	margin-left:65px ;
+            	border:1px solid #cae0f3;
+            }
+            .box11{
+            	height: 50px;
+            	width: 48.5px;
+            	float: left;
+            	text-align:center ;
+            	margin-top: 5px;
+            }
+            .button1{
+            	 position: relative;
+                background: none;
+                border: none;
+                border-radius: 25px;
+                height: 25px;
+                line-height: 24px;
+                padding: 0 px;
+                color: white;
+                background-color:#e1e1e1 ;
+            }
+            .boxvideo{
+            	
+            	width: 420px;
+            	height: 225px;
+            	margin-left: 40px;
+            }
+            .boxwei{
+            	width: 1240px;
+            	height: 50px;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			<div class="box2"><img src="img/logo.png" /> </div>
+			<div class="box3sousuokuang">
+				<input type="text" />
+				
+				<button id="searchBtn" class="searchBtn" type="submit"> <font face="arial rounded mt bold" size="2">搜狗搜索</font></button>
+			</div>
+			<a class="a1" href="img/icons.png"></a>
+			<a class="a2" href="img/icons.png"></a>
+		</div>
+		<div class="box4">
+			<ul>
+				<li><a href="#"> 新闻</a></li>
+				<li><a href="#">视频</a></li>
+				<li><a href="#">图片</a></li>
+				<li><a href="#">军事</a></li>
+				<li><a href="#">体育</a></li>
+				<li><a href="#">NBA</a></li>
+				<li><a href="#">娱乐</a></li>
+				<li><a href="#">财经</a></li>
+				<li><a href="#">科技</a></li>
+				<li><a href="#">时尚</a></li>
+				<li><a href="#">汽车</a></li>
+				<li><a href="#">房产</a></li>
+				<li><a href="#">教育</a></li>
+				<li><a href="#">文化</a></li>
+				<li><a href="#">游戏</a></li>
+				<li><a href="#">星座</a></li>
+				<li><a href="#">更多</a></li>
+			</ul>
+		</div>
+		<div class="box8tupian">
+			<img class="img1" src="img/20c15c9fb4ab8e146e6cf67de63704c9.jpg" />
+		</div>
+		<div class="box5">
+			<div class="box6">
+				<div class="box7">
+					<h4><font color="#1479D7">校内新闻</font></h4>
+					<span class="span1"></span>
+				</div>
+			    <div class="box8">
+			    	<a class="a3" href="#">10-29校长周益春专题调研碧泉书院建设发展情况</a></br>
+                    <a class="a3" href="#">10-29中部六省摩擦学领域专家汇聚湘潭 研讨“机械传动与摩擦学”</a></br>
+                    <a class="a3" href="#">10-29第三十八届学生田径运动会举行</a></br>
+                    <a class="a3" href="#">10-29化学学院博士研究生陈曼芳在《Small》发表高水平学术论文</a></br>
+                    <a class="a3" href="#">10-26湘潭大学体育发展基金成立 4位校友捐赠第一笔赠款</a></br>
+                    <a class="a3" href="#">10-26我校加入湖南有色金属产业创新联盟</a></br>
+                    <a class="a3" href="#">10-29第三十八届学生田径运动会举行</a></br>
+                    <a class="a3" href="#">10-29校长周益春专题调研碧泉书院建设发展情况</a></br>
+			    </div>
+			</div>
+			<div class="box6">
+				<div class="box7">
+					<h4><font color="#1479D7">通知公告</font></h4>
+					<span class="span1"></span>
+				</div>
+				<div class="box8">
+					<a class="a3" href="#">10-22关于组织2019年上半年汉语教师志愿者报名的通知</a></br>
+                    <a class="a3" href="#">10-18关于举办公务员模考大赛的通知</a></br>
+                    <a class="a3" href="#">10-16 2019年春季赴国外交换学生选拔结果公示</a></br>
+                    <img width="95% " height="300px" src="img/menu1.png" />
+				</div>
+			</div>
+			<div class="box6">
+				<div class="box9">
+					<div class="box11"><a class="a3" href="#"> 新闻</a></div>
+					<div class="box11"><a class="a3" href="#">体育</a></div>
+					<div class="box11"><a class="a3" href="#">快报</a></div>
+					<div class="box11"><a class="a3" href="#">微视</a></div>
+					<div class="box11"><a class="a3" href="#">视频</a></div>
+					<div class="box11"><a class="a3" href="#">浏览器</a></div>
+					<div class="box11"><a class="a3" href="#">企鹅号</a></div>
+					<div class="box11"><img src="img/icons - 副本.png" /> </div>
+				</div>
+				<div class="box9">
+					<div class="box11"><a class="a3" href="#">微信</a></div>
+					<div class="box11"><a class="a3" href="#">QQ</a></div>
+					<div class="box11"><a class="a3" href="#">空间</a></div>
+					<div class="box11"><a class="a3" href="#">企业</a></div>
+					<div class="box11"><a class="a3" href="#">邮箱</a></div>
+					<div class="box11"><a class="a3" href="#">腾讯云</a></div>
+					<div class="box11"><a class="a3" href="#">管家</a></div>
+					<div class="box11"><img src="img/icons - 副本 (2).png" /></div>
+				</div>
+				<div class="box9">
+					<div class="box11"><a class="a3" href="#">LOL</a></div>
+					<div class="box11"><a class="a3" href="#">DNF</a></div>
+					<div class="box11"><a class="a3" href="#">CF</a></div>
+					<div class="box11"><a class="a3" href="#">王者</a></div>
+					<div class="box11"><a class="a3" href="#">逆战</a></div>
+					<div class="box11"><a class="a3" href="#">火影</a></div>
+					<div class="box11"><a class="a3" href="#">天刀</a></div>
+					<div class="box11"><img src="img/icons - 副本 (3).png" /> </div>
+				</div>
+				<div class="box10">
+					<div class="box11"><a class="a3" href="#">软件</a></div>
+					<div class="box11"><a class="a3" href="#">Q币</a></div>
+					<div class="box11"><a class="a3" href="#">京东</a></div>
+					<div class="box11"><a class="a3" href="#">地图</a></div>
+					<div class="box11"><a class="a3" href="#">文档</a></div>
+					<div class="box11"><a class="a3" href="#">理财通</a></div>
+					<div class="box11"><button class="button1">全部</button> </div>
+					<div class="box11"><img src="img/icons - 副本 (5).png" /> </div>
+				</div>
+			    <div class="box71" >
+			    	<h4><font color="#1479D7">热门赛事</font></h4>
+			    	<span class="span1"></span>
+			    </div>
+			    <div class="boxvideo">
+			        	<img width="420px" height="225px" src="img/b1dbd8b9f98716ef806cc9e06c99c20d.jpg" />
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="boxwei" align="center" >
+			<img   src="img/poster.png"/></br>
+			<h4 class="boxwei"> 版权所有 © 湘潭大学. ：中国湖南湘潭. 邮编：411105</p</h4></br>
+            <h4 class="boxwei"> 湘ICP备05005862号 湘教QS3-200505-000059</h4>
+		</div>
+	</body>
+</html>

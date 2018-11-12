@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<table border="1" cellspacing="0" width="700px" height="800px">
+			<caption align="middle">
+				<h1>高考志愿填报表</h1></caption>
+			<tr height="20px" >
+				<th colspan="7" bgcolor="antiquewhite">基本信息</th>
+			</tr>
+			<tr height="50px">
+				<th>姓名<input type="text " /></th>
+				<th>年龄<input type="number" max="50" min="10" /></th>
+				<th>性别<input type="radio" name="sex" />男
+					<input type="radio" name="sex" />女</th>
+				<th>出生日期<input type="date" /></th>
+				<td colspan="3" width="150px" rowspan="2">
+					<img src="img/27622aca16b60fa050d42f9e61c68bf5.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<th height="50px">联系电话<input type="tel" name="phone" max="11" /></th>
+				<th colspan="2">身份证号<input type="tel" max="18" /></th>
+				<th>毕业学校
+					<select>
+						<option></option>
+						<option>明德中学</option>
+						<option>...</option>
+					</select>
+				</th>
+
+			</tr>
+			<tr>
+				<th height="80px" colspan="2">所在地：
+					<label>省份</label>
+					<select>
+							<option></option>
+							<option>湖南省</option>
+							<option>湖北省</option>
+							<option>...</option>
+					</select>
+					
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市</label>
+					<select>
+						    <option></option>
+							<option>长沙市</option>
+							<option>武汉市</option>
+							<option>...</option>
+					</select>
+				</th>
+				<th>政治面貌
+					<select>
+						<option></option>
+						<option>群众</option>
+						<option>团员</option>
+						<option>党员</option>
+					</select>
+				</th>
+				<th colspan="4">EMAIL
+				<input type="email"  name="email"/>
+				</th>
+				
+			</tr>
+			<tr >
+				<th colspan="7"height="20px" bgcolor="bisque">成绩信息</th>
+			</tr>
+			<tr >
+				<th>总成绩</th>
+				<th>语文</th>
+				<th>数学</th>
+				<th>英语</th>
+				<th>文综/理综</th>
+			</tr>
+			<tr>
+				<td><input type="text" max="750"/></td>
+				<td><input type="text" max="150"/></td>
+				<td><input type="text" max="150"/></td>
+				<td><input type="text" max="150"/></td>
+				<td><input type="text" max="300"/></td>
+			</tr>
+			<tr>
+				<th colspan="5" height="30px" bgcolor="bisque">志愿信息</th>
+			</tr>
+			<tr>
+				<th rowspan="3">一本志愿</th>
+				<th>第一志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th>第二志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th>第三志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th rowspan="3">二本志愿</th>
+				<th>第一志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th>第二志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th>第三志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th rowspan="3">三本志愿</th>
+				<th>第一志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th>第二志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+			<tr>
+				<th>第三志愿</th>
+				<td colspan="3"><input type="text"/></td>
+			</tr>
+		</table>
+		<font color="crimson" size="5">帮助：</font>
+		<a href="https://www.wmzy.com/">高考志愿填报指南</a>
+	</body>
+    <input type="submit" />
+</html>

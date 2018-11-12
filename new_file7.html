@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			function createA(){
+				x=document.createElement("A");
+				y=document.createTextNode("这是一个a元素");
+				z=document.getElementById("div1");
+				x.appendChild(y);
+				z.appendChild(x);
+				x.style.color="yellow";
+				x.style.backgroundColor="red";
+			}
+			function removeAllP(){
+				m=document.getElementById("div1");
+				n=document.getElementsByTagName("p");
+				for(i=0;i<=2;i++){
+					m.removeChild(m.childNodes[i]);
+				}
+			}
+			function removeAllA(){
+				a=document.getElementById("div2");
+				b=document.getElementsByTagName("a");
+				for (i=0;i<=1;i++) {
+					a.removeChild(a.childNodes[i]);
+				}
+			}
+			function backgroundColor(){
+				c=document.getElementById("div1");
+				d=document.getElementsByTagName("p");
+				for(i=0;i<=2;i++){
+                   d[i].style.backgroundColor="red";
+              }
+				g=document.getElementById("div1");
+				e=document.getElementById("div2");
+				f=document.getElementsByTagName("a");
+				for(t=0;t<=2;t++){
+                   f[t].style.background="red";
+                }	
+			}
+		</script>
+	</head>
+	<body>
+		<div id="div1" style="width: 375px;height: 200px;border: 1px solid black;"><p>p1</p> <p>p2</p> <p>p3</p><div id="div2" style="width: 270px;height: 50px;"><a>a1</a> <a>a2</a></div></div>
+		<button onclick="createA()">黄色红底</button>
+		<button onclick="removeAllP()">删除所有p元素</button>
+		<button onclick="removeAllA()">删除所有a元素</button>
+		<button onclick="backgroundColor()">背景色变红</button>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> 不只有吃喝玩乐，还有诗和远方</title>
+		<style>
+			*{
+				margin: 0 auto;
+			}
+			font{
+				color: azure;
+			}
+			body{
+				width: 960px;
+				background-image: url(img/16265915.jpg);
+				opacity: 0.8;
+			}
+			#frame {
+			position: absolute; 
+			width: 300px;
+			height: 200px;
+			overflow: hidden;
+			border-radius:5px;
+		}
+		#dis {
+			position: absolute;
+			left: -50px;
+			top: -10px;
+			opacity: 0.5;
+		}
+		#dis li {
+			display: inline-block;
+			width: 200px;
+			height: 20px;
+			margin: 0 50px;
+			float: left;
+			text-align: center;
+			color: #fff;
+			border-radius: 10px;
+			background: #000;
+		}
+		#photos img {
+			float: left;
+			width:300px;
+			height:200px;
+		}
+		#photos {
+			position: absolute;z-index:9px;
+			width: calc(300px * 4);
+		}
+		.play{
+			animation: ma 20s ease-out infinite alternate;
+		}
+		@keyframes ma {
+			0%,20% {		margin-left: 0px;		}
+			25%,40% {		margin-left: -300px;	}
+			45%,60% {		margin-left: -600px;	}
+			65%,80% {		margin-left: -900px;	}
+			
+		}
+		.num{
+			position:absolute;z-index:10;
+			display:inline-block;
+			right:10px;top:165px;
+			border-radius:100%;
+			background:#f00;
+			width:25px;height:25px;
+			line-height:25px;
+			cursor:pointer;
+			color:#fff;
+			text-align:center;
+			opacity:0.6;
+		}
+		.num:hover{background:#00f;}
+		.num:hover,#photos:hover{animation-play-state:paused;}
+		.num:nth-child(2){margin-right:30px}
+		.num:nth-child(3){margin-right:60px}
+		.num:nth-child(4){margin-right:90px}
+		
+		#a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}
+		#a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}
+		#a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}
+		#a4:hover ~ #photos{animation: ma4 .5s ease-out forwards;}
+		
+		@keyframes ma1 {0%{margin-left:-1200px;}100%{margin-left:-0px;}	}
+		@keyframes ma2 {0%{margin-left:-1200px;}100%{margin-left:-300px;}	}
+		@keyframes ma3 {100%{margin-left:-600px;}	}
+		@keyframes ma4 {100%{margin-left:-900px;}	}
+		
+		</style>
+	</head>
+	<body>
+		<font size="6" ><p align="center">来橘子洲看一场焰火吧！</p></font>
+	</br>
+		<div id="frame" >
+		<a id="a1" class="num">1</a>
+		<a id="a2" class="num">2</a>
+		<a id="a3" class="num">3</a>
+		<a id="a4" class="num">4</a>
+		<div id="photos" class="play">
+			  <img src="img/5vpHn19hOs9d6Enj~jOXiNCXsSP7uLE~pes51A___m_jpg.png" >
+			  <img src="img/8035b7343e3b42e39eac885592962e1a.jpg" >
+			  <img src="img/B2C52AB12EE9EACEF66A4B28C4AC6434B5377A39_size162_w670_h478_png.jpg" >
+			  <img src="img/xGIo-xeKIMdqwcHYPuAddw==_7806547950372704035.jpg" >
+			  </div>
+		</div>
+		</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+		<font size="5"><p align="left">&nbsp;&nbsp;长沙橘子洲，“独立寒秋，湘江北去，橘子洲头，看万山红遍，层林尽染”。这里不仅被誉为“中国第一洲”，也是世界上最大的内陆洲，古往今来久负盛名的同时也留下了不少赞美诗篇，尤以毛主席的《沁园春·长沙》最为著名。在橘子洲上，人们可以看到中国最大的毛泽东雕塑，也可以尽享沙滩、园林的自然魅力，感受历史文化的厚重，重访伟人的千古足迹。而每当夏秋时节，橘子洲上灿烂的烟花更是成为长沙最激动人心的重要活动。
+		最近几年，长沙橘子洲上每年有好多场礼花表演。湘江东西两岸，人群熙攘，只为一睹火树银花、惊心动魄的风华。谁能不爱这“天花无数月中开，五彩祥云绕绛台”的惊艳？</p></font>
+		
+	</body>
+</html>
